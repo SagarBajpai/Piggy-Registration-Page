@@ -1,0 +1,101 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	background: #f9f9f9;
+}
+
+.btn {
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	transition: 500ms;
+	-moz-transition: 500ms;
+	-webkit-transition: 500ms;
+}
+
+label {
+	font-weight: 700;
+	font-size: 0.8em;
+}
+
+.no-border-radius {
+	border-radius: 0;
+}
+
+.form-error-text {
+	color: #cc3333;
+	font-size: 0.8em;
+	margin: 0;
+}
+
+.custom-card-section-header {
+	margin-top: 20px;
+}
+
+.custom-card-section-header > p {
+	font-size: 0.9em;
+	font-weight: 500;
+	color: #666666;
+	margin: 0;
+}
+
+.custom-card {
+	background: #fff;
+	margin: 5px 0 20px;
+	padding: 20px 30px;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: 0;
+	box-shadow: 1px 1px 5px gray;
+	-webkit-box-shadow: 1px 1px 5px gray;
+	-moz-box-shadow: 1px 1px 5px gray;
+}
+
+.custom-card-head {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.custom-card-head-title {
+	font-size: 1.5em;
+	font-weight: 600;
+	margin: 0;
+}
+
+.custom-card-body {
+	margin-top: 10px;
+}
+
+.custom-card-buttons-container {
+	display: flex;
+	justify-content: flex-end;
+	border-radius: 0;
+	transition: 500ms;
+}
+
+.custom-card-buttons-container > button {
+	border-radius: 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.9em;
+	cursor: pointer;
+}
+
+.custom-card-buttons-container > :not(:last-child) {
+    margin-right: .25em;
+}
+
+.form-container {
+	background: #fff;
+	margin-top: 50px;
+	padding: 10px 15px 15px;
+}
+
+.review-container {
+	margin-top: 50px;
+}
+
+.review-field-name {
+	font-weight: 600;
+	margin: 0;
+}
